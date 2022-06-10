@@ -25,7 +25,6 @@ public abstract class database  extends SQLiteOpenHelper {
     }
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
-        db.
     }
     public void addintodatabase(String username,String email,String pass)
     {
